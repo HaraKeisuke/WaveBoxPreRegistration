@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>TipsNote : GitHub Pages Sample</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" rel="stylesheet" />
+  <title>WaveBox</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-<main>
-  <h1>GitHub Pages のサンプルです</h1>
-  <a href="http://www.tam-tam.co.jp/tipsnote/"><button>TipsNote に戻る</button></a>
-</main>
-
-<script>
-console.log('GitHub Pages Sample');
-</script>
+  <div>
+    <header class="header">
+      <div class="header__content grid--1200 m-auto">
+        <h1 class="header__logo">
+          <Link class="header__logo__link" to="/">
+          <img src="./images/header_logo.png" />
+          </Link>
+        </h1>
+      </div>
+    </header>
+  </div>
+  <section class="about__container">
+    <div class="about__content">
+      <h2>好きな同人音楽を<br />見つける</h2>
+      <ul class="catchtxt_list">
+        <li>
+          <i class="fas fa-share-alt-square" />
+          <p>あなたのサークルの<br /><span>サンプル音源</span>をシェア</p>
+        </li>
+        <li>
+          <i class="fas fa-clipboard-list" />
+          <p>気になるサークルを<br /><span>チェックリスト</span>に追加</p>
+        </li>
+        <li>
+          <i class="fas fa-check" />
+          <p>イベントごとの<span>出展サークル</span>を<br />事前にチェック</p>
+        </li>
+      </ul>
+    </div>
+    <div class="about__content">
+      <h2>たとえばこんなときに・・・</h2>
+      <ul class="ex_list">
+        <li>
+          <img src="./images/img_ex_01.gif" />
+        </li>
+        <li>
+          <img src=./images/img_ex_02.gif />
+        </li>
+        <li>
+          <img src=./images/img_ex_03.gif />
+        </li>
+        <li>
+          <img src=./images/img_ex_04.gif />
+        </li>
+      </ul>
+    </div>
+  </section>
 </body>
+
 </html>
